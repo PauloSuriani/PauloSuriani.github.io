@@ -7,7 +7,7 @@ import MyColorPallet from '../sandbox/MyColorPallet';
 class App extends React.Component {
   render() {
     return (
-    <div className="p-3  text-white font-sans bg-slate-900">
+    <div className="p-6 text-white font-sans bg-slate-900">
       <FrontPage />
       <Header />
       <Footer />

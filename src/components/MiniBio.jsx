@@ -7,18 +7,22 @@ class MiniBio extends React.Component {
     const intro = `
       Yo! Hey there, my name is Paulo, I'm a 
       fullstack web developer. I'm oriented to simple and creative
-      solutions. Tested, scalable and documented aplications as well.
+      solutions. Tested, scalable and documented applications as well.
+      I was introduced to Computer Science at
+      2006, on Federal University of Uberlândia, it helped me to 
+      built a base in logics, maths, algorithyms, recursiveness and 
+      computing fundamentals. 
     `
     const presentation1 = `
       Fast forward to 2021, I went hardcore into web development,
-      learning front and backend stacks, and I've got prepared
-      with Agile methodologies and Soft Skills.  
+      learning Front End and Back End stacks through more than 40
+      projects that I have coded for learning sake: From fundamentals
+      HTML & CSS to JavaScript React, including tests and CRUD 
+      using Node.js + Express. I'm also into Agile methodologies and improved my Soft Skills
+      with other mates in this journey.  
       `
       const presentation2 = `
-      I was introduced to Computer Science at
-      2006, on Federal University of Uberlândia and although I didn't 
-      have a bachelors degree, it helped me to built a base in 
-      logics, maths, algorithyms, recursiveness and computing fundamentals. 
+      
       `
       const presentation3 = ` Yo, I'm Paulo, curiosity about how 
       things works lead me into technology. I'm also on music, 
@@ -42,13 +46,17 @@ class MiniBio extends React.Component {
       cook with Node.js + Express to build robust back-ends.
       It's simple like that. Clean code. 
 
+      and although I didn't 
+      have a bachelors degree
+
       `
 
       const curiosity =  `
-        Some curiosities about me: I like music and already played in a rock band. 
+        Some random curiosities about me: I like music and already 
+        played in a rock band. 
         I'm also on gardening as a way to do concrete things 
-        away from a computer screen. Interest in world history and 
-        3D printer creative projects and possibilities.
+        away from a computer screen. Let's talk about world history or 
+        3D printing cool projects and possibilities?
       `
     return (
     <div className="">
@@ -56,24 +64,28 @@ class MiniBio extends React.Component {
       Hello world!
     </h1> */}
       <div className=''>
-        <h2 className='text-lime-300 text-3xl py-5'>Web Development</h2>
+        <h2 className='text-lime-300 lg:text-[36px] md:text-[33px] sm:text-[30px] text-[27px] sm:py-6 py-3'>
+          Web Development
+        </h2>
         {/* <h2 className='text-lime-300 text-2xl pt-2'>Web development focused on</h2> */}
         {/* <h3 className='text-lime-300 text-2xl'>transform ideas into solutions</h3> */}
         {/* <p className='text-lime-300 pb-2 text-2xl text-right'>{`...through code { }`}</p> */}
       </div>
-      <hr />
+      <hr className='opacity-60 py-2' />
       {/*diminuir a distancia py depoissssssssssssss!!!! */ }
-      <p className='leading-relaxed py-5 text-xl font-serif text-start'>{intro}</p>
-      <p className='leading-relaxed py-5 text-xl font-serif text-start'>{presentation2}</p>
-      <p className='leading-relaxed py-5 text-xl font-serif text-start'>{presentation1}</p>
-      <p className='leading-relaxed py-5 text-xl font-serif text-start'>{curiosity}</p>
-      <p className='py-3 text-2xl'>Curious?</p>
+      <p className='leading-normal py-3 text-[23px] font-serif'>{intro}</p>
+      {/* <p className='leading-relaxed py-3 text-xl font-serif text-start'>{presentation2}</p> */}
+      <p className='leading-normal py-3 text-[23px] font-serif'>{presentation1}</p>
+      <p className='leading-normal py-3 text-[23px] font-serif'>{curiosity}</p>
+      {/* <p className='py-3 text-2xl'>Curious?</p>
       <a  className='font-serif text-lime-300' href={'https://github.com/PauloSuriani'}>See done, running projects as how they are!</a>
       <span className='font-serif px-2' >|</span>
-      <a className='text-lime-300 font-serif' href={'https://github.com/PauloSuriani'}>Show me the code!</a>
-      <p className='py-5 text-2xl'>{`Languages & tools in my map`}</p>
+      <a className='text-lime-300 font-serif' href={'https://github.com/PauloSuriani'}>Show me the code!</a>*/}
+      <p className='py-5 lg:text-5xl md:text-4xl text-3xl'>
+        {`Languages & tools`}
+      </p> 
       <MyLanguages />
-      {/* <hr /> */}
+      
     </div>
     );
   }

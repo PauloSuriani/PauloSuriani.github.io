@@ -2,16 +2,17 @@ import React from 'react';
 import Header from '../components/Header';
 import FrontPage from './FrontPage';
 import Footer from '../components/Footer';
-import MyColorPallet from '../sandbox/MyColorPallet';
+// import MyColorPallet from '../sandbox/MyColorPallet';
 
 class App extends React.Component {
   render() {
     return (
-    <div className="p-3  text-white font-sans bg-slate-900">
+    <div className="px-4 lg:pt-6 md:pt-4 pt-2 pb-1 text-white font-sans bg-slate-900">
       <FrontPage />
       <Header />
       <Footer />
-      <MyColorPallet />
+      
+      {/* <MyColorPallet /> */}
     </div>
     );
   }

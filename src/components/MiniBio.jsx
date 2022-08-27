@@ -14,12 +14,12 @@ class MiniBio extends React.Component {
       computing fundamentals. 
     `
     const presentation1 = `
-      Fast forward to 2021, I went hardcore into web development,
-      learning Front End and Back End stacks through more than 40
+      Fast forward to 2021, I went hard into web development,
+      learning Front End and Back End stacks through more than 30
       projects that I have coded for learning sake: From fundamentals
       HTML & CSS to JavaScript React, including tests and CRUD 
-      using Node.js + Express. I'm also into Agile methodologies and improved my Soft Skills
-      with other mates in this journey.  
+      using Node.js + Express. I'm also into Agile Methodologies and
+      teamwork cooperations.  
       `
       const presentation2 = `
       
@@ -38,7 +38,7 @@ class MiniBio extends React.Component {
       Although my first experience with a computer was typing 
       on a MS-DOS terminal, and I was officaly introduced to Computer Science at
       2006, through logics, maths. Last year I've been practicing and learning 
-      about web development. I've done about 40 projects in a journey including 
+      about web development. I've done about 30 projects in a journey including 
       technologies like: HTML, CSS, JavaScript, React, Docker, SQL, NodeJs,
       TypeScript, 
 

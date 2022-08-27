@@ -3,53 +3,51 @@ import React from 'react';
 class MyLanguages extends React.Component {
   render() {
     return (
-    <>
+    <div className='flex flex-wrap'>
+
       <div className=''>
-        <div className='flex flex-wrap border-2 w-64'>
-        
-        <div className='bg-lime-700 px-2 m-1 max-w-'>HTML</div>
-        <div className='bg-lime-700 px-2 m-1'>CSS</div>
-        <div className='bg-lime-700 px-2 m-1'>Tailwind</div>
-        <div className='bg-lime-700 px-2 m-1'>JavaScript</div>
-        <div className='bg-lime-700 px-2 m-1'>Jest</div>
-        <div className='bg-lime-700 px-2 m-1'>React</div>
-        <div className='bg-lime-700 px-2 m-1'>Axios</div>
-        <div className='bg-lime-700 px-2 m-1'>Hooks</div>
-        <div className='bg-lime-700 px-2 m-1'>Node.js</div>
-        <div className='bg-lime-700 px-2 m-1'>Docker</div>
-        <div className='bg-lime-700 px-2 m-1'>MySQL</div>
-        <div className='bg-lime-700 px-2 m-1'>Express.js</div>
-        <div className='bg-lime-700 px-2 m-1'>Heroku</div>
-        <div className='bg-lime-700 px-2 m-1'>Docker Compose</div>
-        <div className='bg-lime-700 px-2 m-1'>TypeScript</div>
-        <div className='bg-lime-700 px-2 m-1'>Hooks</div>
-        {/* <li className='bg-lime-700 px-2 m-1'>Tailwind_CSS</li> */}
-        {/* <li className='bg-lime-700 px-2 m-1'>Context API</li> */}
-        {/* <li className='bg-lime-700 px-2 m-1'>Redux</li> */}
-        
-        </div>
+        <h2 className='font-light font-serif text-2xl py-6'>Front End</h2>
+        <ul className='flex pb-2 flex-wrap sm:w-60 font-medium text-lg'>
+          <li className='bg-lime-700 px-2 m-1 hover:bg-green-600'>HTML</li>
+          <li className='bg-lime-700 px-2 m-1 hover:bg-green-600'>CSS</li>
+          <li className='bg-lime-700 px-2 m-1 hover:bg-green-600'>Tailwind</li>
+          <li className='bg-lime-900 px-2 m-1 hover:bg-green-800'>JavaScript</li>
+          <li className='bg-lime-700 px-2 m-1 hover:bg-green-600'>React</li>
+          <li className='bg-lime-700 px-2 m-1 hover:bg-green-600'>Axios</li>
+          <li className='bg-lime-700 px-2 m-1 hover:bg-green-600'>Hooks</li>
+          <li className='bg-lime-700 px-2 m-1 hover:bg-green-600'>Jest</li>
+        </ul>
       </div>
-      {/* <div class="py-8 px-8 max-w-sm bg-white rounded-xl shadow-lg space-y-2 sm:py-4 sm:flex sm:items-center sm:space-y-0 sm:space-x-6"> */}
-     {/* <img class="block mx-auto h-24 rounded-full sm:mx-0 sm:shrink-0" src="" alt="Woman's Face"> */}
-        {/* <div class="text-center space-y-2 sm:text-left">
-          <div class="space-y-0.5">
-            <p class="text-lg text-black font-semibold">
-              Front End
-            </p>
-            <p class="text-slate-500 font-medium">
-              HTML, CSS, JavaScript, React, JTest
-            </p>
-          </div>
-          <button class="px-4 py-1 text-sm text-purple-600 font-semibold rounded-full border border-purple-200 hover:text-white hover:bg-purple-600 hover:border-transparent focus:outline-none focus:ring-2 focus:ring-purple-600 focus:ring-offset-2">See my projects</button>
-        </div>
+
+      <div className=''>
+        <h2 className='font-light font-serif text-2xl py-6'>Back End</h2>
+        <ul className='flex pb-2 flex-wrap sm:w-64 font-medium text-lg'>
+          <li className='bg-lime-700 px-2 m-1 hover:bg-green-600'>NodeJs</li>
+          <li className='bg-lime-700 px-2 m-1 hover:bg-green-600'>Docker</li>
+          <li className='bg-lime-700 px-2 m-1 hover:bg-green-600'>Heroku</li>
+          <li className='bg-lime-700 px-2 m-1 hover:bg-green-600'>ExpressJs</li>
+          <li className='bg-lime-900 px-2 m-1 hover:bg-green-800'>TypeScript</li>
+          <li className='bg-lime-700 px-2 m-1 hover:bg-green-600'>Docker Compose</li>
+          <li className='bg-lime-700 px-2 m-1 hover:bg-green-600'>Postman</li>
+        </ul>
       </div>
-      <p>Docker</p>
-      <p>Working on branches</p>
-      <p>HTML</p>
-      <p>CSS</p>
-      <p>JavaScript</p>
-      <p>React</p> */}
-    </>
+
+      <div className='md:pl-2'>
+        <h2 className='font-light font-serif text-2xl py-6'>Data Base +</h2>
+        <ul className='flex pb-2 flex-wrap sm:w-64 font-medium text-lg'>
+          <li className='bg-lime-900 px-2 m-1  hover:bg-green-800'>SQL</li>
+          <li className='bg-lime-700 px-2 m-1  hover:bg-green-600'>MySQL</li>
+          <li className='bg-lime-700 px-2 m-1  hover:bg-green-600'>MongoDB</li> 
+          <li className='bg-lime-700 px-2 m-1  hover:bg-green-600'>Mongoose</li>
+          <li className='bg-lime-700 px-2 m-1  hover:bg-green-600'>Sequelize</li>
+          <li className='bg-lime-900 px-2 m-1  hover:bg-green-800'>Python</li>
+          <li className='bg-lime-900 px-2 m-1  hover:bg-green-800'>C</li>
+          <li className='bg-lime-900 px-2 m-1  hover:bg-green-800'>Java</li>
+          <li className='bg-lime-900 px-2 m-1  hover:bg-green-800'>Prolog / Haskell</li>
+        </ul>
+      </div>
+
+    </div>
     );
   }
 }

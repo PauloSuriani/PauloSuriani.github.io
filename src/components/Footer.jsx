@@ -6,11 +6,11 @@ class Footer extends React.Component {
     <footer className='container max-w-screen-md'>
       <hr className='opacity-60 pt-2'/>
       <div className='flex justify-between items-center'>
-      <span className='text-gray-400 font-bold font-serif sm:text-xl text-sm'>
-        Uberlândia, Brazil
+      <span className='sm:text-gray-500 text-gray-100 font-bold font-mono sm:text-3xl text-md'>
+        surianipaulo@gmail.com
       </span>
       <div className='flex items-center'>
-      <span className='pr-2 text-lime-400 font-bold font-serif sm:text-xl text-sm'>Thanks for visiting!</span>
+      <span className='pr-2 text-lime-500 font-mono sm:opacity-100 sm:text-lg text-sm opacity-60'>Thanks for visiting!</span>
         <img className="sm:w-16 w-10 rounded-full" src={avatar} alt="Bordered avatar"/>
         </div>
 

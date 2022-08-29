@@ -10,9 +10,9 @@ class Header extends React.Component {
           <div className='py-3'>
             <a 
               className='hover:text-lime-600 pr-2 text-2xl font-serif text-lime-300' 
-              href={'paulosuriani88@hotmail.com'}
+              href={'404'}
             >
-              Email
+              Contact
             </a>
             <span className='pr-2 font-serif'>|</span>
             <a 

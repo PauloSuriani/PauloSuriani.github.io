@@ -41,9 +41,10 @@ class MyLanguages extends React.Component {
           <li className='bg-lime-700 px-2 m-1  hover:bg-green-600'>Mongoose</li>
           <li className='bg-lime-700 px-2 m-1  hover:bg-green-600'>Sequelize</li>
           <li className='bg-lime-900 px-2 m-1  hover:bg-green-800'>Python</li>
-          <li className='bg-lime-900 px-2 m-1  hover:bg-green-800'>C</li>
-          <li className='bg-lime-900 px-2 m-1  hover:bg-green-800'>Java</li>
-          <li className='bg-lime-900 px-2 m-1  hover:bg-green-800'>Prolog / Haskell</li>
+          <li className='bg-lime-800 px-2 m-1  hover:bg-green-900'>C</li>
+          <li className='bg-lime-800 px-2 m-1  hover:bg-green-900'>Java</li>
+          <li className='bg-lime-800 px-2 m-1  hover:bg-green-900'>Prolog</li>
+          <li className='bg-lime-800 px-2 m-1  hover:bg-green-900'>Haskell</li>
         </ul>
       </div>
 

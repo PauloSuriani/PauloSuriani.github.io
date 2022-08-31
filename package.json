@@ -1,5 +1,5 @@
 {
-  "name": "my-pers-page",
+  "name": "my-portifolio",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
@@ -38,6 +38,7 @@
   "devDependencies": {
     "autoprefixer": "^10.4.7",
     "postcss": "^8.4.14",
+    "prettier": "^2.7.1",
     "tailwindcss": "^3.1.6"
   }
 }

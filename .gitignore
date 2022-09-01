@@ -4,13 +4,15 @@
 /node_modules
 /.pnp
 .pnp.js
-/src/sandbox/random.scripts.jsx
+# /src/sandbox/random.scripts.jsx
 
 # testing
 /coverage
 
 # production
 # /build
+
+/src
 
 # misc
 .DS_Store
